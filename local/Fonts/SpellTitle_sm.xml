@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GlyphisFont Version="1" FaceName="Wizard Fancy" PtSize="90" Weight="400" Bold="0" Italic="0" Outline="0" OutputFormat="DDS_A8" InvalidGlyph="127">
+    <Pages Count="1">
+        <Page FileName="SpellTitle_sm_0.dds" Width="256" Height="256" />
+    </Pages>
+    <Glyphs Count="306">
+        <Glyph ID="32" A="0" B="1" C="2" Page="0" Top="240" Bottom="256" Left="1" Right="4" />
+        <Glyph ID="33" A="1" B="4" C="1" Page="0" Top="240" Bottom="256" Left="4" Right="10" />
+        <Glyph ID="34" A="1" B="5" C="0" Page="0" Top="240" Bottom="256" Left="10" Right="17" />
+        <Glyph ID="35" A="1" B="11" C="1" Page="0" Top="240" Bottom="256" Left="17" Right="30" />
+        <Glyph ID="36" A="1" B="5" C="1" Page="0" Top="240" Bottom="256" Left="30" Right="37" />
+        <Glyph ID="37" A="1" B="10" C="1" Page="0" Top="240" Bottom="256" Left="37" Right="49" />
+        <Glyph ID="38" A="1" B="7" C="1" Page="0" Top="240" Bottom="256" Left="49" Right="58" />
+        <Glyph ID="39" A="0" B="3" C="0" Page="0" Top="240" Bottom="256" Left="58" Right="63" />
+        <Glyph ID="40" A="0" B="4" C="0" Page="0" Top="240" Bottom="256" Left="63" Right="69" />
+        <Glyph ID="41" A="0" B="4" C="1" Page="0" Top="240" Bottom="256" Left="69" Right="75" />
+        <Glyph ID="42" A="0" B="8" C="0" Page="0" Top="240" Bottom="256" Left="75" Right="85" />
+        <Glyph ID="43" A="1" B="8" C="1" Page="0" Top="240" Bottom="256" Left="85" Right="95" />
+        <Glyph ID="44" A="1" B="2" C="1" Page="0" Top="240" Bottom="256" Left="95" Right="99" />
+        <Glyph ID="45" A="0" B="5" C="1" Page="0" Top="240" Bottom="256" Left="99" Right="106" />
+        <Glyph ID="46" A="0" B="2" C="1" Page="0" Top="240" Bottom="256" Left="106" Right="110" />
+        <Glyph ID="47" A="0" B="6" C="0" Page="0" Top="240" Bottom="256" Left="110" Right="118" />
+        <Glyph ID="48" A="0" B="7" C="1" Page="0" Top="240" Bottom="256" Left="118" Right="127" />
+        <Glyph ID="49" A="1" B="4" C="1" Page="0" Top="240" Bottom="256" Left="127" Right="133" />
+        <Glyph ID="50" A="0" B="7" C="1" Page="0" Top="240" Bottom="256" Left="133" Right="142" />
+        <Glyph ID="51" A="0" B="8" C="0" Page="0" Top="240" Bottom="256" Left="142" Right="152" />
+        <Glyph ID="52" A="0" B="7" C="1" Page="0" Top="240" Bottom="256" Left="152" Right="161" />
+        <Glyph ID="53" A="0" B="7" C="0" Page="0" Top="240" Bottom="256" Left="161" Right="170" />
+        <Glyph ID="54" A="0" B="8" C="0" Page="0" Top="240" Bottom="256" Left="170" Right="180" />
+        <Glyph ID="55" A="0" B="8" C="0" Page="0" Top="240" Bottom="256" Left="180" Right="190" />
+        <Glyph ID="56" A="0" B="7" C="1" Page="0" Top="240" Bottom="256" Left="190" Right="199" />
+        <Glyph ID="57" A="0" B="8" C="0" Page="0" Top="240" Bottom="256" Left="199" Right="209" />
+        <Glyph ID="58" A="0" B="3" C="0" Page="0" Top="240" Bottom="256" Left="209" Right="214" />
+        <Glyph ID="59" A="0" B="3" C="0" Page="0" Top="240" Bottom="256" Left="214" Right="219" />
+        <Glyph ID="60" A="0" B="7" C="1" Page="0" Top="240" Bottom="256" Left="219" Right="228" />
+        <Glyph ID="61" A="0" B="9" C="1" Page="0" Top="240" Bottom="256" Left="228" Right="239" />
+        <Glyph ID="62" A="0" B="7" C="0" Page="0" Top="240" Bottom="256" Left="239" Right="248" />
+        <Glyph ID="63" A="0" B="8" C="-1" Page="0" Top="224" Bottom="240" Left="1" Right="11" />
+        <Glyph ID="64" A="0" B="10" C="1" Page="0" Top="224" Bottom="240" Left="11" Right="23" />
+        <Glyph ID="65" A="0" B="10" C="0" Page="0" Top="224" Bottom="240" Left="23" Right="35" />
+        <Glyph ID="66" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="35" Right="45" />
+        <Glyph ID="67" A="0" B="7" C="0" Page="0" Top="224" Bottom="240" Left="45" Right="54" />
+        <Glyph ID="68" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="54" Right="64" />
+        <Glyph ID="69" A="0" B="7" C="0" Page="0" Top="224" Bottom="240" Left="64" Right="73" />
+        <Glyph ID="70" A="0" B="7" C="0" Page="0" Top="224" Bottom="240" Left="73" Right="82" />
+        <Glyph ID="71" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="82" Right="92" />
+        <Glyph ID="72" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="92" Right="102" />
+        <Glyph ID="73" A="1" B="3" C="1" Page="0" Top="240" Bottom="256" Left="248" Right="253" />
+        <Glyph ID="74" A="0" B="7" C="1" Page="0" Top="224" Bottom="240" Left="102" Right="111" />
+        <Glyph ID="75" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="111" Right="121" />
+        <Glyph ID="76" A="0" B="7" C="1" Page="0" Top="224" Bottom="240" Left="121" Right="130" />
+        <Glyph ID="77" A="0" B="11" C="0" Page="0" Top="224" Bottom="240" Left="130" Right="143" />
+        <Glyph ID="78" A="0" B="8" C="1" Page="0" Top="224" Bottom="240" Left="143" Right="153" />
+        <Glyph ID="79" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="153" Right="163" />
+        <Glyph ID="80" A="0" B="9" C="0" Page="0" Top="224" Bottom="240" Left="163" Right="174" />
+        <Glyph ID="81" A="0" B="9" C="0" Page="0" Top="224" Bottom="240" Left="174" Right="185" />
+        <Glyph ID="82" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="185" Right="195" />
+        <Glyph ID="83" A="0" B="7" C="0" Page="0" Top="224" Bottom="240" Left="195" Right="204" />
+        <Glyph ID="84" A="0" B="8" C="0" Page="0" Top="224" Bottom="240" Left="204" Right="214" />
+        <Glyph ID="85" A="0" B="8" C="1" Page="0" Top="224" Bottom="240" Left="214" Right="224" />
+        <Glyph ID="86" A="0" B="10" C="-1" Page="0" Top="224" Bottom="240" Left="224" Right="236" />
+        <Glyph ID="87" A="0" B="11" C="0" Page="0" Top="224" Bottom="240" Left="236" Right="249" />
+        <Glyph ID="88" A="-1" B="10" C="0" Page="0" Top="208" Bottom="224" Left="1" Right="13" />
+        <Glyph ID="89" A="0" B="9" C="0" Page="0" Top="208" Bottom="224" Left="13" Right="24" />
+        <Glyph ID="90" A="0" B="9" C="-1" Page="0" Top="208" Bottom="224" Left="24" Right="35" />
+        <Glyph ID="91" A="0" B="5" C="0" Page="0" Top="208" Bottom="224" Left="35" Right="42" />
+        <Glyph ID="92" A="0" B="6" C="-2" Page="0" Top="208" Bottom="224" Left="42" Right="50" />
+        <Glyph ID="93" A="1" B="4" C="1" Page="0" Top="208" Bottom="224" Left="50" Right="56" />
+        <Glyph ID="94" A="0" B="8" C="0" Page="0" Top="208" Bottom="224" Left="56" Right="66" />
+        <Glyph ID="95" A="0" B="10" C="0" Page="0" Top="208" Bottom="224" Left="66" Right="78" />
+        <Glyph ID="96" A="0" B="4" C="0" Page="0" Top="208" Bottom="224" Left="78" Right="84" />
+        <Glyph ID="97" A="0" B="9" C="-1" Page="0" Top="208" Bottom="224" Left="84" Right="95" />
+        <Glyph ID="98" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="95" Right="104" />
+        <Glyph ID="99" A="0" B="6" C="-1" Page="0" Top="208" Bottom="224" Left="104" Right="112" />
+        <Glyph ID="100" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="112" Right="121" />
+        <Glyph ID="101" A="0" B="5" C="0" Page="0" Top="208" Bottom="224" Left="121" Right="128" />
+        <Glyph ID="102" A="0" B="6" C="0" Page="0" Top="208" Bottom="224" Left="128" Right="136" />
+        <Glyph ID="103" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="136" Right="145" />
+        <Glyph ID="104" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="145" Right="154" />
+        <Glyph ID="105" A="1" B="2" C="1" Page="0" Top="224" Bottom="240" Left="249" Right="253" />
+        <Glyph ID="106" A="0" B="6" C="1" Page="0" Top="208" Bottom="224" Left="154" Right="162" />
+        <Glyph ID="107" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="162" Right="171" />
+        <Glyph ID="108" A="0" B="5" C="1" Page="0" Top="208" Bottom="224" Left="171" Right="178" />
+        <Glyph ID="109" A="0" B="9" C="0" Page="0" Top="208" Bottom="224" Left="178" Right="189" />
+        <Glyph ID="110" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="189" Right="198" />
+        <Glyph ID="111" A="0" B="6" C="1" Page="0" Top="208" Bottom="224" Left="198" Right="206" />
+        <Glyph ID="112" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="206" Right="215" />
+        <Glyph ID="113" A="0" B="8" C="0" Page="0" Top="208" Bottom="224" Left="215" Right="225" />
+        <Glyph ID="114" A="0" B="7" C="0" Page="0" Top="208" Bottom="224" Left="225" Right="234" />
+        <Glyph ID="115" A="0" B="5" C="1" Page="0" Top="208" Bottom="224" Left="234" Right="241" />
+        <Glyph ID="116" A="0" B="6" C="0" Page="0" Top="208" Bottom="224" Left="241" Right="249" />
+        <Glyph ID="117" A="0" B="7" C="0" Page="0" Top="192" Bottom="208" Left="1" Right="10" />
+        <Glyph ID="118" A="-1" B="9" C="0" Page="0" Top="192" Bottom="208" Left="10" Right="21" />
+        <Glyph ID="119" A="-1" B="10" C="0" Page="0" Top="192" Bottom="208" Left="21" Right="33" />
+        <Glyph ID="120" A="0" B="8" C="0" Page="0" Top="192" Bottom="208" Left="33" Right="43" />
+        <Glyph ID="121" A="0" B="8" C="-1" Page="0" Top="192" Bottom="208" Left="43" Right="53" />
+        <Glyph ID="122" A="0" B="7" C="0" Page="0" Top="192" Bottom="208" Left="53" Right="62" />
+        <Glyph ID="123" A="0" B="4" C="1" Page="0" Top="192" Bottom="208" Left="62" Right="68" />
+        <Glyph ID="124" A="1" B="2" C="0" Page="0" Top="208" Bottom="224" Left="249" Right="253" />
+        <Glyph ID="125" A="0" B="4" C="1" Page="0" Top="192" Bottom="208" Left="68" Right="74" />
+        <Glyph ID="126" A="0" B="9" C="0" Page="0" Top="192" Bottom="208" Left="74" Right="85" />
+        <Glyph ID="160" A="0" B="1" C="2" Page="0" Top="192" Bottom="208" Left="85" Right="88" />
+        <Glyph ID="161" A="1" B="3" C="1" Page="0" Top="192" Bottom="208" Left="88" Right="93" />
+        <Glyph ID="162" A="0" B="6" C="0" Page="0" Top="192" Bottom="208" Left="93" Right="101" />
+        <Glyph ID="163" A="0" B="8" C="0" Page="0" Top="192" Bottom="208" Left="101" Right="111" />
+        <Glyph ID="166" A="1" B="2" C="0" Page="0" Top="192" Bottom="208" Left="111" Right="115" />
+        <Glyph ID="168" A="1" B="6" C="1" Page="0" Top="192" Bottom="208" Left="115" Right="123" />
+        <Glyph ID="169" A="0" B="8" C="1" Page="0" Top="192" Bottom="208" Left="123" Right="133" />
+        <Glyph ID="170" A="0" B="7" C="0" Page="0" Top="192" Bottom="208" Left="133" Right="142" />
+        <Glyph ID="171" A="0" B="9" C="0" Page="0" Top="192" Bottom="208" Left="142" Right="153" />
+        <Glyph ID="173" A="0" B="5" C="1" Page="0" Top="192" Bottom="208" Left="153" Right="160" />
+        <Glyph ID="174" A="0" B="9" C="0" Page="0" Top="192" Bottom="208" Left="160" Right="171" />
+        <Glyph ID="176" A="0" B="6" C="0" Page="0" Top="192" Bottom="208" Left="171" Right="179" />
+        <Glyph ID="177" A="0" B="8" C="0" Page="0" Top="192" Bottom="208" Left="179" Right="189" />
+        <Glyph ID="178" A="0" B="5" C="0" Page="0" Top="192" Bottom="208" Left="189" Right="196" />
+        <Glyph ID="179" A="0" B="5" C="1" Page="0" Top="192" Bottom="208" Left="196" Right="203" />
+        <Glyph ID="180" A="3" B="4" C="0" Page="0" Top="192" Bottom="208" Left="203" Right="209" />
+        <Glyph ID="181" A="0" B="7" C="0" Page="0" Top="192" Bottom="208" Left="209" Right="218" />
+        <Glyph ID="182" A="0" B="9" C="1" Page="0" Top="192" Bottom="208" Left="218" Right="229" />
+        <Glyph ID="183" A="0" B="3" C="0" Page="0" Top="192" Bottom="208" Left="229" Right="234" />
+        <Glyph ID="184" A="0" B="4" C="1" Page="0" Top="192" Bottom="208" Left="234" Right="240" />
+        <Glyph ID="185" A="1" B="3" C="0" Page="0" Top="192" Bottom="208" Left="240" Right="245" />
+        <Glyph ID="187" A="0" B="9" C="0" Page="0" Top="176" Bottom="192" Left="1" Right="12" />
+        <Glyph ID="188" A="0" B="8" C="1" Page="0" Top="176" Bottom="192" Left="12" Right="22" />
+        <Glyph ID="189" A="0" B="9" C="0" Page="0" Top="176" Bottom="192" Left="22" Right="33" />
+        <Glyph ID="190" A="0" B="9" C="0" Page="0" Top="176" Bottom="192" Left="33" Right="44" />
+        <Glyph ID="191" A="1" B="11" C="0" Page="0" Top="176" Bottom="192" Left="44" Right="57" />
+        <Glyph ID="192" A="0" B="10" C="-1" Page="0" Top="176" Bottom="192" Left="57" Right="69" />
+        <Glyph ID="193" A="0" B="10" C="0" Page="0" Top="176" Bottom="192" Left="69" Right="81" />
+        <Glyph ID="194" A="0" B="9" C="0" Page="0" Top="176" Bottom="192" Left="81" Right="92" />
+        <Glyph ID="195" A="0" B="10" C="-1" Page="0" Top="176" Bottom="192" Left="92" Right="104" />
+        <Glyph ID="196" A="0" B="10" C="-1" Page="0" Top="176" Bottom="192" Left="104" Right="116" />
+        <Glyph ID="197" A="0" B="10" C="-1" Page="0" Top="176" Bottom="192" Left="116" Right="128" />
+        <Glyph ID="198" A="0" B="10" C="0" Page="0" Top="176" Bottom="192" Left="128" Right="140" />
+        <Glyph ID="199" A="0" B="6" C="0" Page="0" Top="192" Bottom="208" Left="245" Right="253" />
+        <Glyph ID="200" A="0" B="5" C="1" Page="0" Top="176" Bottom="192" Left="140" Right="147" />
+        <Glyph ID="201" A="1" B="5" C="0" Page="0" Top="176" Bottom="192" Left="147" Right="154" />
+        <Glyph ID="202" A="0" B="6" C="-1" Page="0" Top="176" Bottom="192" Left="154" Right="162" />
+        <Glyph ID="203" A="0" B="6" C="1" Page="0" Top="176" Bottom="192" Left="162" Right="170" />
+        <Glyph ID="204" A="-1" B="5" C="1" Page="0" Top="176" Bottom="192" Left="170" Right="177" />
+        <Glyph ID="205" A="1" B="5" C="-1" Page="0" Top="176" Bottom="192" Left="177" Right="184" />
+        <Glyph ID="206" A="0" B="6" C="0" Page="0" Top="176" Bottom="192" Left="184" Right="192" />
+        <Glyph ID="207" A="0" B="6" C="0" Page="0" Top="176" Bottom="192" Left="192" Right="200" />
+        <Glyph ID="208" A="-1" B="9" C="0" Page="0" Top="176" Bottom="192" Left="200" Right="211" />
+        <Glyph ID="209" A="0" B="7" C="1" Page="0" Top="176" Bottom="192" Left="211" Right="220" />
+        <Glyph ID="210" A="0" B="7" C="0" Page="0" Top="176" Bottom="192" Left="220" Right="229" />
+        <Glyph ID="211" A="0" B="7" C="1" Page="0" Top="176" Bottom="192" Left="229" Right="238" />
+        <Glyph ID="212" A="0" B="7" C="0" Page="0" Top="176" Bottom="192" Left="238" Right="247" />
+        <Glyph ID="213" A="0" B="7" C="1" Page="0" Top="160" Bottom="176" Left="1" Right="10" />
+        <Glyph ID="214" A="0" B="7" C="0" Page="0" Top="160" Bottom="176" Left="10" Right="19" />
+        <Glyph ID="215" A="0" B="9" C="0" Page="0" Top="160" Bottom="176" Left="19" Right="30" />
+        <Glyph ID="216" A="0" B="7" C="0" Page="0" Top="160" Bottom="176" Left="30" Right="39" />
+        <Glyph ID="217" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="39" Right="49" />
+        <Glyph ID="218" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="49" Right="59" />
+        <Glyph ID="219" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="59" Right="69" />
+        <Glyph ID="220" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="69" Right="79" />
+        <Glyph ID="221" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="79" Right="89" />
+        <Glyph ID="222" A="0" B="8" C="0" Page="0" Top="160" Bottom="176" Left="89" Right="99" />
+        <Glyph ID="223" A="1" B="7" C="1" Page="0" Top="160" Bottom="176" Left="99" Right="108" />
+        <Glyph ID="224" A="-1" B="10" C="-1" Page="0" Top="160" Bottom="176" Left="108" Right="120" />
+        <Glyph ID="225" A="-1" B="10" C="-1" Page="0" Top="160" Bottom="176" Left="120" Right="132" />
+        <Glyph ID="226" A="0" B="9" C="-1" Page="0" Top="160" Bottom="176" Left="132" Right="143" />
+        <Glyph ID="227" A="0" B="9" C="-1" Page="0" Top="160" Bottom="176" Left="143" Right="154" />
+        <Glyph ID="228" A="0" B="9" C="0" Page="0" Top="160" Bottom="176" Left="154" Right="165" />
+        <Glyph ID="229" A="0" B="9" C="0" Page="0" Top="160" Bottom="176" Left="165" Right="176" />
+        <Glyph ID="230" A="0" B="10" C="0" Page="0" Top="160" Bottom="176" Left="176" Right="188" />
+        <Glyph ID="231" A="0" B="6" C="0" Page="0" Top="160" Bottom="176" Left="188" Right="196" />
+        <Glyph ID="232" A="-1" B="6" C="0" Page="0" Top="160" Bottom="176" Left="196" Right="204" />
+        <Glyph ID="233" A="0" B="6" C="-1" Page="0" Top="160" Bottom="176" Left="204" Right="212" />
+        <Glyph ID="234" A="0" B="6" C="-1" Page="0" Top="160" Bottom="176" Left="212" Right="220" />
+        <Glyph ID="235" A="-1" B="7" C="-1" Page="0" Top="160" Bottom="176" Left="220" Right="229" />
+        <Glyph ID="236" A="-1" B="5" C="0" Page="0" Top="176" Bottom="192" Left="247" Right="254" />
+        <Glyph ID="237" A="1" B="5" C="-1" Page="0" Top="160" Bottom="176" Left="229" Right="236" />
+        <Glyph ID="238" A="0" B="6" C="-1" Page="0" Top="160" Bottom="176" Left="236" Right="244" />
+        <Glyph ID="239" A="-1" B="7" C="-1" Page="0" Top="160" Bottom="176" Left="244" Right="253" />
+        <Glyph ID="240" A="0" B="10" C="-1" Page="0" Top="144" Bottom="160" Left="1" Right="13" />
+        <Glyph ID="241" A="0" B="7" C="1" Page="0" Top="144" Bottom="160" Left="13" Right="22" />
+        <Glyph ID="242" A="0" B="6" C="1" Page="0" Top="144" Bottom="160" Left="22" Right="30" />
+        <Glyph ID="243" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="30" Right="39" />
+        <Glyph ID="244" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="39" Right="48" />
+        <Glyph ID="245" A="0" B="6" C="1" Page="0" Top="144" Bottom="160" Left="48" Right="56" />
+        <Glyph ID="246" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="56" Right="65" />
+        <Glyph ID="247" A="1" B="7" C="1" Page="0" Top="144" Bottom="160" Left="65" Right="74" />
+        <Glyph ID="248" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="74" Right="83" />
+        <Glyph ID="249" A="0" B="7" C="1" Page="0" Top="144" Bottom="160" Left="83" Right="92" />
+        <Glyph ID="250" A="0" B="7" C="1" Page="0" Top="144" Bottom="160" Left="92" Right="101" />
+        <Glyph ID="251" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="101" Right="110" />
+        <Glyph ID="252" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="110" Right="119" />
+        <Glyph ID="253" A="0" B="8" C="-1" Page="0" Top="144" Bottom="160" Left="119" Right="129" />
+        <Glyph ID="254" A="0" B="9" C="0" Page="0" Top="144" Bottom="160" Left="129" Right="140" />
+        <Glyph ID="255" A="0" B="8" C="1" Page="0" Top="144" Bottom="160" Left="140" Right="150" />
+        <Glyph ID="260" A="-1" B="11" C="0" Page="0" Top="144" Bottom="160" Left="150" Right="163" />
+        <Glyph ID="261" A="-1" B="11" C="0" Page="0" Top="144" Bottom="160" Left="163" Right="176" />
+        <Glyph ID="262" A="0" B="8" C="0" Page="0" Top="144" Bottom="160" Left="176" Right="186" />
+        <Glyph ID="263" A="0" B="8" C="0" Page="0" Top="144" Bottom="160" Left="186" Right="196" />
+        <Glyph ID="268" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="196" Right="205" />
+        <Glyph ID="269" A="0" B="7" C="0" Page="0" Top="144" Bottom="160" Left="205" Right="214" />
+        <Glyph ID="270" A="0" B="8" C="0" Page="0" Top="144" Bottom="160" Left="214" Right="224" />
+        <Glyph ID="271" A="0" B="8" C="0" Page="0" Top="144" Bottom="160" Left="224" Right="234" />
+        <Glyph ID="280" A="1" B="6" C="2" Page="0" Top="144" Bottom="160" Left="234" Right="242" />
+        <Glyph ID="281" A="1" B="6" C="1" Page="0" Top="144" Bottom="160" Left="242" Right="250" />
+        <Glyph ID="282" A="1" B="5" C="1" Page="0" Top="128" Bottom="144" Left="1" Right="8" />
+        <Glyph ID="283" A="1" B="5" C="1" Page="0" Top="128" Bottom="144" Left="8" Right="15" />
+        <Glyph ID="286" A="1" B="6" C="1" Page="0" Top="128" Bottom="144" Left="15" Right="23" />
+        <Glyph ID="287" A="1" B="6" C="1" Page="0" Top="128" Bottom="144" Left="23" Right="31" />
+        <Glyph ID="304" A="1" B="3" C="1" Page="0" Top="128" Bottom="144" Left="31" Right="36" />
+        <Glyph ID="305" A="1" B="3" C="2" Page="0" Top="128" Bottom="144" Left="36" Right="41" />
+        <Glyph ID="321" A="1" B="7" C="1" Page="0" Top="128" Bottom="144" Left="41" Right="50" />
+        <Glyph ID="322" A="1" B="7" C="1" Page="0" Top="128" Bottom="144" Left="50" Right="59" />
+        <Glyph ID="323" A="0" B="8" C="1" Page="0" Top="128" Bottom="144" Left="59" Right="69" />
+        <Glyph ID="324" A="0" B="8" C="1" Page="0" Top="128" Bottom="144" Left="69" Right="79" />
+        <Glyph ID="327" A="0" B="8" C="1" Page="0" Top="128" Bottom="144" Left="79" Right="89" />
+        <Glyph ID="328" A="0" B="8" C="1" Page="0" Top="128" Bottom="144" Left="89" Right="99" />
+        <Glyph ID="338" A="0" B="11" C="1" Page="0" Top="128" Bottom="144" Left="99" Right="112" />
+        <Glyph ID="339" A="0" B="11" C="1" Page="0" Top="128" Bottom="144" Left="112" Right="125" />
+        <Glyph ID="344" A="0" B="7" C="0" Page="0" Top="128" Bottom="144" Left="125" Right="134" />
+        <Glyph ID="345" A="0" B="7" C="0" Page="0" Top="128" Bottom="144" Left="134" Right="143" />
+        <Glyph ID="346" A="0" B="5" C="1" Page="0" Top="128" Bottom="144" Left="143" Right="150" />
+        <Glyph ID="347" A="0" B="5" C="1" Page="0" Top="128" Bottom="144" Left="150" Right="157" />
+        <Glyph ID="350" A="1" B="5" C="1" Page="0" Top="128" Bottom="144" Left="157" Right="164" />
+        <Glyph ID="351" A="1" B="5" C="1" Page="0" Top="128" Bottom="144" Left="164" Right="171" />
+        <Glyph ID="352" A="0" B="6" C="0" Page="0" Top="128" Bottom="144" Left="171" Right="179" />
+        <Glyph ID="353" A="0" B="6" C="0" Page="0" Top="128" Bottom="144" Left="179" Right="187" />
+        <Glyph ID="356" A="0" B="6" C="0" Page="0" Top="128" Bottom="144" Left="187" Right="195" />
+        <Glyph ID="357" A="0" B="6" C="0" Page="0" Top="128" Bottom="144" Left="195" Right="203" />
+        <Glyph ID="366" A="1" B="8" C="1" Page="0" Top="128" Bottom="144" Left="203" Right="213" />
+        <Glyph ID="367" A="1" B="8" C="1" Page="0" Top="128" Bottom="144" Left="213" Right="223" />
+        <Glyph ID="376" A="0" B="8" C="1" Page="0" Top="128" Bottom="144" Left="223" Right="233" />
+        <Glyph ID="377" A="0" B="8" C="0" Page="0" Top="128" Bottom="144" Left="233" Right="243" />
+        <Glyph ID="378" A="0" B="8" C="0" Page="0" Top="128" Bottom="144" Left="243" Right="253" />
+        <Glyph ID="379" A="0" B="8" C="0" Page="0" Top="112" Bottom="128" Left="1" Right="11" />
+        <Glyph ID="380" A="0" B="8" C="0" Page="0" Top="112" Bottom="128" Left="11" Right="21" />
+        <Glyph ID="381" A="1" B="7" C="0" Page="0" Top="112" Bottom="128" Left="21" Right="30" />
+        <Glyph ID="382" A="1" B="7" C="0" Page="0" Top="112" Bottom="128" Left="30" Right="39" />
+        <Glyph ID="902" A="1" B="10" C="0" Page="0" Top="112" Bottom="128" Left="39" Right="51" />
+        <Glyph ID="903" A="2" B="3" C="2" Page="0" Top="112" Bottom="128" Left="51" Right="56" />
+        <Glyph ID="904" A="1" B="8" C="1" Page="0" Top="112" Bottom="128" Left="56" Right="66" />
+        <Glyph ID="905" A="0" B="10" C="1" Page="0" Top="112" Bottom="128" Left="66" Right="78" />
+        <Glyph ID="906" A="1" B="5" C="2" Page="0" Top="112" Bottom="128" Left="78" Right="85" />
+        <Glyph ID="908" A="1" B="8" C="1" Page="0" Top="112" Bottom="128" Left="85" Right="95" />
+        <Glyph ID="910" A="0" B="11" C="1" Page="0" Top="112" Bottom="128" Left="95" Right="108" />
+        <Glyph ID="911" A="0" B="12" C="0" Page="0" Top="112" Bottom="128" Left="108" Right="122" />
+        <Glyph ID="912" A="1" B="6" C="1" Page="0" Top="112" Bottom="128" Left="122" Right="130" />
+        <Glyph ID="913" A="0" B="11" C="0" Page="0" Top="112" Bottom="128" Left="130" Right="143" />
+        <Glyph ID="914" A="0" B="7" C="1" Page="0" Top="112" Bottom="128" Left="143" Right="152" />
+        <Glyph ID="915" A="0" B="6" C="0" Page="0" Top="112" Bottom="128" Left="152" Right="160" />
+        <Glyph ID="916" A="0" B="9" C="0" Page="0" Top="112" Bottom="128" Left="160" Right="171" />
+        <Glyph ID="917" A="1" B="6" C="1" Page="0" Top="112" Bottom="128" Left="171" Right="179" />
+        <Glyph ID="918" A="0" B="8" C="1" Page="0" Top="112" Bottom="128" Left="179" Right="189" />
+        <Glyph ID="919" A="1" B="7" C="1" Page="0" Top="112" Bottom="128" Left="189" Right="198" />
+        <Glyph ID="920" A="0" B="9" C="0" Page="0" Top="112" Bottom="128" Left="198" Right="209" />
+        <Glyph ID="921" A="1" B="3" C="2" Page="0" Top="112" Bottom="128" Left="209" Right="214" />
+        <Glyph ID="922" A="1" B="8" C="1" Page="0" Top="112" Bottom="128" Left="214" Right="224" />
+        <Glyph ID="923" A="0" B="9" C="1" Page="0" Top="112" Bottom="128" Left="224" Right="235" />
+        <Glyph ID="924" A="1" B="9" C="1" Page="0" Top="112" Bottom="128" Left="235" Right="246" />
+        <Glyph ID="925" A="0" B="7" C="1" Page="0" Top="96" Bottom="112" Left="1" Right="10" />
+        <Glyph ID="926" A="1" B="6" C="1" Page="0" Top="112" Bottom="128" Left="246" Right="254" />
+        <Glyph ID="927" A="1" B="6" C="1" Page="0" Top="96" Bottom="112" Left="10" Right="18" />
+        <Glyph ID="928" A="1" B="8" C="0" Page="0" Top="96" Bottom="112" Left="18" Right="28" />
+        <Glyph ID="929" A="1" B="7" C="0" Page="0" Top="96" Bottom="112" Left="28" Right="37" />
+        <Glyph ID="931" A="0" B="7" C="1" Page="0" Top="96" Bottom="112" Left="37" Right="46" />
+        <Glyph ID="932" A="1" B="6" C="0" Page="0" Top="96" Bottom="112" Left="46" Right="54" />
+        <Glyph ID="933" A="0" B="8" C="1" Page="0" Top="96" Bottom="112" Left="54" Right="64" />
+        <Glyph ID="934" A="0" B="9" C="0" Page="0" Top="96" Bottom="112" Left="64" Right="75" />
+        <Glyph ID="935" A="1" B="8" C="0" Page="0" Top="96" Bottom="112" Left="75" Right="85" />
+        <Glyph ID="936" A="0" B="10" C="1" Page="0" Top="96" Bottom="112" Left="85" Right="97" />
+        <Glyph ID="937" A="0" B="12" C="0" Page="0" Top="96" Bottom="112" Left="97" Right="111" />
+        <Glyph ID="938" A="1" B="4" C="1" Page="0" Top="96" Bottom="112" Left="111" Right="117" />
+        <Glyph ID="939" A="0" B="8" C="0" Page="0" Top="96" Bottom="112" Left="117" Right="127" />
+        <Glyph ID="940" A="0" B="8" C="1" Page="0" Top="96" Bottom="112" Left="127" Right="137" />
+        <Glyph ID="941" A="0" B="7" C="0" Page="0" Top="96" Bottom="112" Left="137" Right="146" />
+        <Glyph ID="942" A="1" B="7" C="1" Page="0" Top="96" Bottom="112" Left="146" Right="155" />
+        <Glyph ID="943" A="1" B="5" C="1" Page="0" Top="96" Bottom="112" Left="155" Right="162" />
+        <Glyph ID="944" A="1" B="7" C="1" Page="0" Top="96" Bottom="112" Left="162" Right="171" />
+        <Glyph ID="945" A="1" B="8" C="0" Page="0" Top="96" Bottom="112" Left="171" Right="181" />
+        <Glyph ID="946" A="0" B="8" C="1" Page="0" Top="96" Bottom="112" Left="181" Right="191" />
+        <Glyph ID="947" A="0" B="9" C="0" Page="0" Top="96" Bottom="112" Left="191" Right="202" />
+        <Glyph ID="948" A="0" B="7" C="1" Page="0" Top="96" Bottom="112" Left="202" Right="211" />
+        <Glyph ID="949" A="1" B="6" C="0" Page="0" Top="96" Bottom="112" Left="211" Right="219" />
+        <Glyph ID="950" A="1" B="7" C="-1" Page="0" Top="96" Bottom="112" Left="219" Right="228" />
+        <Glyph ID="951" A="1" B="6" C="2" Page="0" Top="96" Bottom="112" Left="228" Right="236" />
+        <Glyph ID="952" A="1" B="6" C="1" Page="0" Top="96" Bottom="112" Left="236" Right="244" />
+        <Glyph ID="953" A="1" B="4" C="1" Page="0" Top="96" Bottom="112" Left="244" Right="250" />
+        <Glyph ID="954" A="1" B="8" C="0" Page="0" Top="80" Bottom="96" Left="1" Right="11" />
+        <Glyph ID="955" A="0" B="8" C="1" Page="0" Top="80" Bottom="96" Left="11" Right="21" />
+        <Glyph ID="956" A="1" B="8" C="1" Page="0" Top="80" Bottom="96" Left="21" Right="31" />
+        <Glyph ID="957" A="0" B="9" C="0" Page="0" Top="80" Bottom="96" Left="31" Right="42" />
+        <Glyph ID="958" A="0" B="7" C="1" Page="0" Top="80" Bottom="96" Left="42" Right="51" />
+        <Glyph ID="959" A="1" B="6" C="0" Page="0" Top="80" Bottom="96" Left="51" Right="59" />
+        <Glyph ID="960" A="1" B="9" C="1" Page="0" Top="80" Bottom="96" Left="59" Right="70" />
+        <Glyph ID="961" A="0" B="7" C="0" Page="0" Top="80" Bottom="96" Left="70" Right="79" />
+        <Glyph ID="962" A="0" B="6" C="0" Page="0" Top="80" Bottom="96" Left="79" Right="87" />
+        <Glyph ID="963" A="0" B="8" C="0" Page="0" Top="80" Bottom="96" Left="87" Right="97" />
+        <Glyph ID="964" A="0" B="7" C="0" Page="0" Top="80" Bottom="96" Left="97" Right="106" />
+        <Glyph ID="965" A="0" B="7" C="1" Page="0" Top="80" Bottom="96" Left="106" Right="115" />
+        <Glyph ID="966" A="0" B="9" C="1" Page="0" Top="80" Bottom="96" Left="115" Right="126" />
+        <Glyph ID="967" A="0" B="7" C="0" Page="0" Top="80" Bottom="96" Left="126" Right="135" />
+        <Glyph ID="968" A="0" B="8" C="0" Page="0" Top="80" Bottom="96" Left="135" Right="145" />
+        <Glyph ID="969" A="0" B="9" C="1" Page="0" Top="80" Bottom="96" Left="145" Right="156" />
+        <Glyph ID="970" A="1" B="4" C="0" Page="0" Top="80" Bottom="96" Left="156" Right="162" />
+        <Glyph ID="971" A="0" B="7" C="1" Page="0" Top="80" Bottom="96" Left="162" Right="171" />
+        <Glyph ID="972" A="0" B="7" C="0" Page="0" Top="80" Bottom="96" Left="171" Right="180" />
+        <Glyph ID="973" A="0" B="7" C="1" Page="0" Top="80" Bottom="96" Left="180" Right="189" />
+        <Glyph ID="974" A="0" B="9" C="1" Page="0" Top="80" Bottom="96" Left="189" Right="200" />
+        <Glyph ID="8211" A="0" B="7" C="1" Page="0" Top="80" Bottom="96" Left="200" Right="209" />
+        <Glyph ID="8212" A="0" B="10" C="0" Page="0" Top="80" Bottom="96" Left="209" Right="221" />
+        <Glyph ID="8216" A="0" B="3" C="1" Page="0" Top="80" Bottom="96" Left="221" Right="226" />
+        <Glyph ID="8217" A="0" B="3" C="0" Page="0" Top="80" Bottom="96" Left="226" Right="231" />
+        <Glyph ID="8220" A="0" B="6" C="0" Page="0" Top="80" Bottom="96" Left="231" Right="239" />
+        <Glyph ID="8221" A="0" B="5" C="1" Page="0" Top="80" Bottom="96" Left="239" Right="246" />
+        <Glyph ID="8230" A="1" B="9" C="2" Page="0" Top="64" Bottom="80" Left="1" Right="12" />
+        <Glyph ID="127" A="1" B="5" C="1" Page="0" Top="80" Bottom="96" Left="246" Right="253" />
+    </Glyphs>
+    <KerningPairs Count="197">
+        <KerningPair First="65" Second="65" Amount="1" />
+        <KerningPair First="65" Second="66" Amount="1" />
+        <KerningPair First="65" Second="68" Amount="1" />
+        <KerningPair First="65" Second="77" Amount="1" />
+        <KerningPair First="65" Second="84" Amount="-1" />
+        <KerningPair First="65" Second="85" Amount="-1" />
+        <KerningPair First="65" Second="86" Amount="-2" />
+        <KerningPair First="65" Second="87" Amount="-1" />
+        <KerningPair First="65" Second="88" Amount="1" />
+        <KerningPair First="65" Second="89" Amount="-1" />
+        <KerningPair First="65" Second="90" Amount="1" />
+        <KerningPair First="67" Second="68" Amount="1" />
+        <KerningPair First="67" Second="69" Amount="1" />
+        <KerningPair First="67" Second="72" Amount="1" />
+        <KerningPair First="67" Second="75" Amount="1" />
+        <KerningPair First="67" Second="76" Amount="1" />
+        <KerningPair First="67" Second="82" Amount="1" />
+        <KerningPair First="67" Second="87" Amount="1" />
+        <KerningPair First="67" Second="88" Amount="1" />
+        <KerningPair First="67" Second="89" Amount="1" />
+        <KerningPair First="67" Second="90" Amount="1" />
+        <KerningPair First="68" Second="66" Amount="1" />
+        <KerningPair First="68" Second="67" Amount="1" />
+        <KerningPair First="68" Second="68" Amount="1" />
+        <KerningPair First="68" Second="69" Amount="2" />
+        <KerningPair First="68" Second="70" Amount="1" />
+        <KerningPair First="68" Second="71" Amount="2" />
+        <KerningPair First="68" Second="72" Amount="1" />
+        <KerningPair First="68" Second="73" Amount="2" />
+        <KerningPair First="68" Second="74" Amount="2" />
+        <KerningPair First="68" Second="75" Amount="2" />
+        <KerningPair First="68" Second="76" Amount="2" />
+        <KerningPair First="68" Second="77" Amount="1" />
+        <KerningPair First="68" Second="78" Amount="1" />
+        <KerningPair First="68" Second="79" Amount="2" />
+        <KerningPair First="68" Second="80" Amount="2" />
+        <KerningPair First="68" Second="81" Amount="1" />
+        <KerningPair First="68" Second="82" Amount="1" />
+        <KerningPair First="68" Second="83" Amount="1" />
+        <KerningPair First="68" Second="84" Amount="1" />
+        <KerningPair First="68" Second="85" Amount="1" />
+        <KerningPair First="68" Second="87" Amount="1" />
+        <KerningPair First="68" Second="88" Amount="1" />
+        <KerningPair First="68" Second="89" Amount="1" />
+        <KerningPair First="68" Second="90" Amount="1" />
+        <KerningPair First="69" Second="65" Amount="1" />
+        <KerningPair First="69" Second="66" Amount="1" />
+        <KerningPair First="69" Second="68" Amount="1" />
+        <KerningPair First="69" Second="69" Amount="1" />
+        <KerningPair First="69" Second="72" Amount="1" />
+        <KerningPair First="69" Second="75" Amount="1" />
+        <KerningPair First="69" Second="77" Amount="1" />
+        <KerningPair First="69" Second="78" Amount="1" />
+        <KerningPair First="69" Second="87" Amount="1" />
+        <KerningPair First="69" Second="88" Amount="1" />
+        <KerningPair First="69" Second="89" Amount="1" />
+        <KerningPair First="69" Second="90" Amount="1" />
+        <KerningPair First="70" Second="65" Amount="-2" />
+        <KerningPair First="70" Second="74" Amount="-1" />
+        <KerningPair First="70" Second="77" Amount="-2" />
+        <KerningPair First="70" Second="86" Amount="1" />
+        <KerningPair First="70" Second="88" Amount="1" />
+        <KerningPair First="70" Second="89" Amount="1" />
+        <KerningPair First="71" Second="86" Amount="-1" />
+        <KerningPair First="71" Second="87" Amount="-1" />
+        <KerningPair First="71" Second="88" Amount="1" />
+        <KerningPair First="72" Second="88" Amount="1" />
+        <KerningPair First="72" Second="89" Amount="1" />
+        <KerningPair First="74" Second="89" Amount="1" />
+        <KerningPair First="75" Second="68" Amount="1" />
+        <KerningPair First="75" Second="69" Amount="1" />
+        <KerningPair First="75" Second="72" Amount="1" />
+        <KerningPair First="75" Second="73" Amount="1" />
+        <KerningPair First="75" Second="74" Amount="-1" />
+        <KerningPair First="75" Second="76" Amount="1" />
+        <KerningPair First="75" Second="82" Amount="1" />
+        <KerningPair First="75" Second="83" Amount="-1" />
+        <KerningPair First="75" Second="84" Amount="1" />
+        <KerningPair First="75" Second="85" Amount="1" />
+        <KerningPair First="75" Second="86" Amount="1" />
+        <KerningPair First="75" Second="87" Amount="1" />
+        <KerningPair First="75" Second="88" Amount="1" />
+        <KerningPair First="75" Second="89" Amount="1" />
+        <KerningPair First="75" Second="90" Amount="1" />
+        <KerningPair First="76" Second="65" Amount="1" />
+        <KerningPair First="76" Second="66" Amount="1" />
+        <KerningPair First="76" Second="68" Amount="1" />
+        <KerningPair First="76" Second="75" Amount="1" />
+        <KerningPair First="76" Second="77" Amount="1" />
+        <KerningPair First="76" Second="78" Amount="1" />
+        <KerningPair First="76" Second="84" Amount="-1" />
+        <KerningPair First="76" Second="86" Amount="-1" />
+        <KerningPair First="76" Second="87" Amount="-1" />
+        <KerningPair First="76" Second="88" Amount="2" />
+        <KerningPair First="76" Second="89" Amount="-1" />
+        <KerningPair First="76" Second="90" Amount="1" />
+        <KerningPair First="77" Second="65" Amount="1" />
+        <KerningPair First="77" Second="66" Amount="1" />
+        <KerningPair First="77" Second="67" Amount="1" />
+        <KerningPair First="77" Second="68" Amount="1" />
+        <KerningPair First="77" Second="77" Amount="1" />
+        <KerningPair First="77" Second="78" Amount="1" />
+        <KerningPair First="77" Second="86" Amount="-1" />
+        <KerningPair First="77" Second="87" Amount="-1" />
+        <KerningPair First="77" Second="88" Amount="1" />
+        <KerningPair First="77" Second="89" Amount="-1" />
+        <KerningPair First="77" Second="90" Amount="1" />
+        <KerningPair First="78" Second="77" Amount="-1" />
+        <KerningPair First="78" Second="89" Amount="1" />
+        <KerningPair First="80" Second="65" Amount="-1" />
+        <KerningPair First="80" Second="77" Amount="-1" />
+        <KerningPair First="80" Second="86" Amount="-1" />
+        <KerningPair First="81" Second="65" Amount="1" />
+        <KerningPair First="81" Second="66" Amount="1" />
+        <KerningPair First="81" Second="67" Amount="1" />
+        <KerningPair First="81" Second="69" Amount="1" />
+        <KerningPair First="81" Second="86" Amount="-1" />
+        <KerningPair First="81" Second="88" Amount="1" />
+        <KerningPair First="82" Second="65" Amount="-1" />
+        <KerningPair First="83" Second="66" Amount="1" />
+        <KerningPair First="83" Second="67" Amount="1" />
+        <KerningPair First="83" Second="68" Amount="1" />
+        <KerningPair First="83" Second="69" Amount="1" />
+        <KerningPair First="83" Second="75" Amount="1" />
+        <KerningPair First="83" Second="88" Amount="1" />
+        <KerningPair First="84" Second="65" Amount="-1" />
+        <KerningPair First="84" Second="74" Amount="-1" />
+        <KerningPair First="84" Second="77" Amount="-2" />
+        <KerningPair First="84" Second="89" Amount="1" />
+        <KerningPair First="85" Second="88" Amount="1" />
+        <KerningPair First="85" Second="89" Amount="1" />
+        <KerningPair First="86" Second="65" Amount="-1" />
+        <KerningPair First="86" Second="68" Amount="1" />
+        <KerningPair First="86" Second="69" Amount="1" />
+        <KerningPair First="86" Second="72" Amount="1" />
+        <KerningPair First="86" Second="73" Amount="1" />
+        <KerningPair First="86" Second="74" Amount="-1" />
+        <KerningPair First="86" Second="75" Amount="1" />
+        <KerningPair First="86" Second="76" Amount="1" />
+        <KerningPair First="86" Second="77" Amount="-1" />
+        <KerningPair First="86" Second="80" Amount="1" />
+        <KerningPair First="86" Second="82" Amount="1" />
+        <KerningPair First="86" Second="84" Amount="1" />
+        <KerningPair First="86" Second="85" Amount="1" />
+        <KerningPair First="86" Second="86" Amount="1" />
+        <KerningPair First="86" Second="87" Amount="1" />
+        <KerningPair First="86" Second="88" Amount="1" />
+        <KerningPair First="86" Second="89" Amount="2" />
+        <KerningPair First="86" Second="90" Amount="1" />
+        <KerningPair First="87" Second="65" Amount="-2" />
+        <KerningPair First="87" Second="74" Amount="-1" />
+        <KerningPair First="87" Second="77" Amount="-1" />
+        <KerningPair First="87" Second="86" Amount="1" />
+        <KerningPair First="87" Second="87" Amount="1" />
+        <KerningPair First="87" Second="88" Amount="1" />
+        <KerningPair First="87" Second="89" Amount="1" />
+        <KerningPair First="88" Second="65" Amount="-1" />
+        <KerningPair First="88" Second="77" Amount="-1" />
+        <KerningPair First="88" Second="88" Amount="1" />
+        <KerningPair First="88" Second="89" Amount="1" />
+        <KerningPair First="89" Second="66" Amount="1" />
+        <KerningPair First="89" Second="67" Amount="2" />
+        <KerningPair First="89" Second="68" Amount="2" />
+        <KerningPair First="89" Second="69" Amount="2" />
+        <KerningPair First="89" Second="70" Amount="1" />
+        <KerningPair First="89" Second="72" Amount="2" />
+        <KerningPair First="89" Second="73" Amount="1" />
+        <KerningPair First="89" Second="75" Amount="2" />
+        <KerningPair First="89" Second="76" Amount="2" />
+        <KerningPair First="89" Second="77" Amount="-1" />
+        <KerningPair First="89" Second="78" Amount="1" />
+        <KerningPair First="89" Second="79" Amount="1" />
+        <KerningPair First="89" Second="80" Amount="1" />
+        <KerningPair First="89" Second="81" Amount="1" />
+        <KerningPair First="89" Second="82" Amount="2" />
+        <KerningPair First="89" Second="83" Amount="1" />
+        <KerningPair First="89" Second="84" Amount="2" />
+        <KerningPair First="89" Second="85" Amount="2" />
+        <KerningPair First="89" Second="86" Amount="2" />
+        <KerningPair First="89" Second="87" Amount="2" />
+        <KerningPair First="89" Second="88" Amount="2" />
+        <KerningPair First="89" Second="89" Amount="2" />
+        <KerningPair First="89" Second="90" Amount="2" />
+        <KerningPair First="90" Second="68" Amount="1" />
+        <KerningPair First="90" Second="69" Amount="1" />
+        <KerningPair First="90" Second="72" Amount="1" />
+        <KerningPair First="90" Second="75" Amount="1" />
+        <KerningPair First="90" Second="76" Amount="1" />
+        <KerningPair First="90" Second="77" Amount="1" />
+        <KerningPair First="90" Second="80" Amount="1" />
+        <KerningPair First="90" Second="82" Amount="1" />
+        <KerningPair First="90" Second="84" Amount="1" />
+        <KerningPair First="90" Second="86" Amount="1" />
+        <KerningPair First="90" Second="87" Amount="1" />
+        <KerningPair First="90" Second="88" Amount="1" />
+        <KerningPair First="90" Second="89" Amount="1" />
+        <KerningPair First="90" Second="90" Amount="1" />
+    </KerningPairs>
+</GlyphisFont>
