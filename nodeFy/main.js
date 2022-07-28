@@ -5,7 +5,7 @@ const fs = require('fs')
 const readLine = require('readline')
 const ProgressBar = require('./progress.js');
 const basePath = './new'
-const outputPath = './zh-tw'
+const outputPath = '../zh-tw'
 let fileName
 // 遍历翻译+输出到zh-tw
 function tFile(){
