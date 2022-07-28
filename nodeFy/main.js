@@ -34,41 +34,45 @@ function tFile(){
             let index = 0
             let timer
             timer = setInterval(() => {
-                (function(idx){
-                    if(!p.test(strArr[idx]) && strArr[idx] && (idx%3 === 0)){
-                        enTotw(strArr[idx].toString('utf16le')).then(text=>{
-                            // console.log('翻译：',text)
-                            // val = text.toString('utf16le')+'\n'
-                            outArr[idx] = text.toString('utf16le')
+                try {
+                    (function(idx){
+                        if(!p.test(strArr[idx]) && strArr[idx] && (idx%3 === 0)){
+                            enTotw(strArr[idx].toString('utf16le')).then(text=>{
+                                // console.log('翻译：',text)
+                                // val = text.toString('utf16le')+'\n'
+                                outArr[idx] = text.toString('utf16le')
+                                finished[idx] = true
+                                // console.log('进度：', (idx/strArr.length).toFixed(2)*100 + '%')
+                                pb.render({ completed: idx, total: total-1 });
+                                // console.log(outArr[idx])
+                                // console.log(finished)
+                                if(!finished.includes(false)){
+                                    fs.writeFile(`${outputPath}/${file.name}`, outArr.join('\n'),{encoding:'utf16le'}, ()=>{
+                                        console.log(file.name,'写入成功')
+                                        fs.unlink(`${basePath}/${file.name}`,()=>{})
+                                        clearInterval(timer)
+                                    })
+                                }
+                            })
+                        }else{
+                            // console.log('不翻译:', strArr[idx], idx)
+                            if(strArr[[idx]] !== undefined)
+                                outArr[idx] = strArr[idx]    
                             finished[idx] = true
-                            // console.log('进度：', (idx/strArr.length).toFixed(2)*100 + '%')
-                            pb.render({ completed: idx, total: total-1 });
                             // console.log(outArr[idx])
                             // console.log(finished)
                             if(!finished.includes(false)){
                                 fs.writeFile(`${outputPath}/${file.name}`, outArr.join('\n'),{encoding:'utf16le'}, ()=>{
-                                    console.log(file.name,'写入成功')
+                                    console.log(file.name,'写入成功--')
                                     fs.unlink(`${basePath}/${file.name}`,()=>{})
                                     clearInterval(timer)
                                 })
                             }
-                        })
-                    }else{
-                        // console.log('不翻译:', strArr[idx], idx)
-                        if(strArr[[idx]] !== undefined)
-                            outArr[idx] = strArr[idx]    
-                        finished[idx] = true
-                        // console.log(outArr[idx])
-                        // console.log(finished)
-                        if(!finished.includes(false)){
-                            fs.writeFile(`${outputPath}/${file.name}`, outArr.join('\n'),{encoding:'utf16le'}, ()=>{
-                                console.log(file.name,'写入成功--')
-                                fs.unlink(`${basePath}/${file.name}`,()=>{})
-                                clearInterval(timer)
-                            })
                         }
-                    }
-                })(index)
+                    })(index)
+                } catch (error) {
+                 console.log(file.name, '崩溃')   
+                }
                 index++
             }, 1000);
         })
