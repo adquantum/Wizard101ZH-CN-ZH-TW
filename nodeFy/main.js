@@ -85,28 +85,4 @@ function enTotw(str){
     }).catch(err=>console.log(err))
 }
 
-// function write(path, output){
-//     let readStream = fs.createReadStream(path);
-//     let writeStream = fs.createWriteStream(output);
-//     let buffer = [];
-
-//     function writeFileWithLine(line, isLastLine) {
-//         writeStream.write(line);
-//         writeStream.write('\n')
-//     }
-//     readStream.on("readable", () => {
-//         while ((char = readStream.read(1)) !== null) {
-//             if (char[0] === 0x0a) {
-//                 writeFileWithLine(Buffer.from(buffer).toString(), false);
-//                 buffer.length = 0;
-//             } else {
-//                 buffer.push(char[0]);
-//             }
-//         }
-//     });
-//     readStream.on("end", () => {
-//         writeFileWithLine(Buffer.from(buffer).toString(), true);
-//     });
-// }
-// enTotw('hello')
 tFile()
