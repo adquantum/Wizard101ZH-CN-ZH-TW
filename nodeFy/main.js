@@ -27,7 +27,7 @@ function tFile(){
         })
         rl.on('close',()=>{
             // console.log(strArr)
-            let p = new RegExp("[`#$&*()={}\\[\\]:：<>/@#&*——{}_]")
+            let p = new RegExp("[`#$&*()={}\\[\\]:：/@#&*——{}_]")
             let finished = new Array(strArr.length).fill(false)
             let outArr = []
             var total = strArr.length;
