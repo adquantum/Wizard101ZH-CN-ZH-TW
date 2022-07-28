@@ -71,7 +71,7 @@ function tFile(){
                         }
                     })(index)
                 } catch (error) {
-                 console.log(file.name, '崩溃')   
+                 console.log(file.name, 'Google 崩溃')   
                 }
                 index++
             }, 1000);
