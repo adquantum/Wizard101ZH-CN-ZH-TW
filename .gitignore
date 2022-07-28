@@ -1,1 +1,7 @@
-/nodeTranslate
+/nodeFy/node_modules
+/nodeFy/*.zip
+/nodeFy/*.rar
+/nodeFy/new
+/nodeFy/old
+/nodeFy/english
+/nodeFy/zh-tw
