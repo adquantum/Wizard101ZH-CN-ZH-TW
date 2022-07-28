@@ -1,4 +1,4 @@
-# Wizard101ZH-CN-ZH-TW
+# Wizard101ZH-CN-ZH-TW-机翻分支
 
 #### 介绍
 Translate wizard101 into Chinese
