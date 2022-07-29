@@ -1,9 +1,1 @@
-/nodeFy/node_modules
-/nodeFy/*.zip
-/nodeFy/*.rar
-/nodeFy/new
-/nodeFy/old
-/nodeFy/english
-/nodeFy/zh-tw
-/nodeFy/english_all
-/nodeFy/备份
+/nodeFy
