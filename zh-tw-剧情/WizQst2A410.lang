@@ -7,10 +7,10 @@
 問候！ 我在這里為您服務。 我剛剛收到了您在Grizzleheim的戰士朋友的來信。
 00000002
 
-<Italics> MERLE將您的留言管覆蓋，並被符文覆蓋。 一封信在裡面捲起。 </italics>
+<ITALICS> MERLE將您的留言管覆蓋，並被符文覆蓋。 一封信在裡面捲起。 </ITALICS>
 00000003
 
-<Italics>“ $ player_firstname $，這是您的朋友Bjorn。我必須再次尋求您的幫助。生病的時代已經成為Grizzleheim，您是一個偉大的盟友和忠實的朋友。如果您會幫助我們，請返回Grizzleheim，找到我並找到我 。</italics>
+<ITALICS>“ $ player_firstname $，這是您的朋友Bjorn。我必須再次尋求您的幫助。生病的時代已經成為Grizzleheim，您是一個偉大的盟友和忠實的朋友。如果您會幫助我們，請返回Grizzleheim，找到我並找到我 。</ITALICS>
 00000004
 
 Grizzleheim的麻煩？ 您應該去借給什麼幫助。 正如他們在那個世界中所說的那樣，“忠誠的紐帶比任何鐵鍊都更牢固。”
