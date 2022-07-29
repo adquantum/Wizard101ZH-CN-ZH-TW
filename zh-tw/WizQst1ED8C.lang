@@ -28,10 +28,10 @@ Dragonspyre|Dragonspyre Academy
 瑪利斯的巢穴
 00000012
 
-Bravo, bravo, $PLAYER_FIRSTNAME$! Because you stopped Malistaire, you've saved every world upon the Spiral. 
+太棒了，太棒了， $PLAYER_FIRSTNAME$! 因為你封锁了Malistaire，你拯救了螺旋上的每個世界。
 00000013
 
-<ITALICS>The Headmaster looks at you with a twinkle in his eyes. </ITALICS>
+<ITALICS>校長眨著眼睛看著你。</ITALICS>
 00000014
 
 我記得當您第一次參加Ravenwood時。 我以為我在汝身上看到了一些特別的東西。
@@ -40,7 +40,7 @@ Bravo, bravo, $PLAYER_FIRSTNAME$! Because you stopped Malistaire, you've saved e
 我為我的兄弟Malistaire的行動道歉。 在您的幫助下，我釋放了西爾維亞的精神，並儘了最大的努力來設定正確的事情。
 00000016
 
-And I admit that I should have trusted your instincts about $PLAYER_FIRSTNAME$, Ambrose. Though off to a rough start, $PLAYER_FIRSTNAME$ has become a truly remarkable student.
+我承認我應該相信你對$PLAYER_ FIRSTNAME$的直覺，安布羅斯。 雖然起步不太順利，但PLAYER_ FIRSTNAME$已經成為一名真正出色的學生。
 00000017
 
 啊，的確。
