@@ -1,6 +1,6 @@
 const fs = require('fs')
 const ProgressBar = require('./progress.js');
-const basePath = './8to16'
+const basePath = '../zh-tw'
 const pb = new ProgressBar('进度', 100);
 let jschardet = require('iconv-jschardet');
 let iconv = require('iconv-lite');
@@ -20,27 +20,28 @@ function to16Le(){
         if (ret.encoding == 'UTF-8') {
             console.log(ret.encoding)
             content = content.toString('utf16le')
-            fs.writeFile(`./8to16/${file.name}`, iconv.decode(fs.readFileSync(`./8to16/${file.name}`), 'UTF8'), {
-                encoding: 'utf16le'
-              }, function(err) {
-                if (err) {
-                  throw err;
-                }
-            });
+            console.log(content)
+            // fs.writeFile(`../zh-tw/${file.name}`, iconv.decode(fs.readFileSync(`../zh-tw/${file.name}`), 'UTF8'), {
+            //     encoding: 'utf16le'
+            //   }, function(err) {
+            //     if (err) {
+            //       throw err;
+            //     }
+            // });
         } 
         if(ret.encoding == null){
-            console.log(ret.encoding)
+            // console.log(ret.encoding)
             content = content.toString('utf16le')
+            
             // fs.writeFile(`./8to16/${file.name}`, content, {encoding:'utf16le'}, ()=>{
             //     pb.render({ completed: idx, total: length });
             // })
-            fs.writeFile(`./8to16/${file.name}`, iconv.decode(fs.readFileSync(`./8to16/${file.name}`), 'utf-16le'), {
-                encoding: 'utf16le'
-              }, function(err) {
+            fs.writeFile(`../../8to16/${file.name}`, content, {encoding:'utf16le'} ,function(err) {
                 if (err) {
                   throw err;
                 }
               });
+            // console.log(content)
         }
     })
 }
