@@ -10,9 +10,9 @@
 var fs = require('fs'),
   iconv = require('iconv-lite');
 // 全局变量
-var root_path = '../zh-tw',
+var root_path = '../../8to16',
     file_type = ['lang'],
-    from_code = 'utf16le',
+    from_code = 'UTF8',
     to_code   = 'utf16le',
     outPah = '../../8to16';
 /**
@@ -39,18 +39,16 @@ Array.prototype.inarray = function(elem) {
  */
 function encodeFiles(root) {
   "use strict";
-  var files = fs.readdirSync(root);
+  var files = fs.readdirSync('../zh-tw');
   files.forEach(function(file) {
-    var pathname = outPah + '/' + file,
-      stat = fs.lstatSync(pathname);
+    var pathname = root_path + '/' + file,
+      stat = fs.lstatSync(`${root_path}/${file}`);
     if (!stat.isDirectory()) {
       var name = file.toString();
       if (!file_type.inarray(name.substring(name.lastIndexOf('.') + 1))) {
         return;
       }
-      fs.writeFile(pathname, iconv.decode(fs.readFileSync(pathname), from_code), {
-        encoding: to_code
-      }, function(err) {
+      fs.writeFile(pathname, iconv.decode(fs.readFileSync(`${root_path}/${file}`), from_code),'utf16le', function(err) {
         if (err) {
           throw err;
         }

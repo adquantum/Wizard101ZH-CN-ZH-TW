@@ -17,6 +17,7 @@ function to16Le(){
     files.forEach((file, idx)=>{
         let content = fs.readFileSync(`${basePath}/${file.name}`)
         let ret = jschardet.detect(content);
+        console.log(ret.encoding)
         if (ret.encoding == 'UTF-8') {
             console.log(ret.encoding)
             content = content.toString('utf16le')
@@ -30,17 +31,17 @@ function to16Le(){
             // });
         } 
         if(ret.encoding == null){
-            // console.log(ret.encoding)
+            console.log(ret.encoding)
             content = content.toString('utf16le')
             
             // fs.writeFile(`./8to16/${file.name}`, content, {encoding:'utf16le'}, ()=>{
             //     pb.render({ completed: idx, total: length });
             // })
-            fs.writeFile(`../../8to16/${file.name}`, content, {encoding:'utf16le'} ,function(err) {
-                if (err) {
-                  throw err;
-                }
-              });
+            // fs.writeFile(`../../8to16/${file.name}`, content, {encoding:'utf16le'} ,function(err) {
+            //     if (err) {
+            //       throw err;
+            //     }
+            //   });
             // console.log(content)
         }
     })
