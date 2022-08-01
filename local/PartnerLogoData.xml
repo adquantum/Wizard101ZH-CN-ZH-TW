@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Objects>
+  <Class Name="class PartnerLogoData">
+    <m_logoList>
+      <Class Name="class LogoData">
+        <m_logoFile>Logos/1.png</m_logoFile>
+        <m_displayTime>1.5</m_displayTime>
+      </Class>
+    </m_logoList>
+  </Class>
+</Objects>

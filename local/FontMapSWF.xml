@@ -1,0 +1,37 @@
+<Objects>
+  <Class Name="class FontMapSWF">
+    <m_defaultFont>Courier New</m_defaultFont>
+    <m_mappings>
+      <Class Name="class FontMapping">
+        <m_symbol>Wizard Fancy</m_symbol>
+        <m_face>MSYH.TTF</m_face>
+        <m_italic>0</m_italic>
+        <m_bold>0</m_bold>
+      </Class>
+    </m_mappings>
+    <m_mappings>
+      <Class Name="class FontMapping">
+        <m_symbol>Wizard-Fancy</m_symbol>
+        <m_face>MSYHBD.TTF</m_face>
+        <m_italic>0</m_italic>
+        <m_bold>0</m_bold>
+      </Class>
+    </m_mappings>
+    <m_mappings>
+      <Class Name="class FontMapping">
+        <m_symbol>Comic Sans MS</m_symbol>
+        <m_face>MSYH.TTF</m_face>
+        <m_italic>0</m_italic>
+        <m_bold>0</m_bold>
+      </Class>
+    </m_mappings>
+    <m_mappings>
+      <Class Name="class FontMapping">
+        <m_symbol>Comic Sans MS</m_symbol>
+        <m_face>MSYHBD.TTF</m_face>
+        <m_italic>0</m_italic>
+        <m_bold>1</m_bold>
+      </Class>
+    </m_mappings>
+  </Class>
+</Objects>
