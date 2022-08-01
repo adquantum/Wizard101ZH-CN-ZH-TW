@@ -1,0 +1,34 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1	www.eassos.com.w.kunlunsl.com
+127.0.0.1	47.246.3.228
+127.0.0.1	internal.eassos.com.w.kunlunsl.com
+165.193.63.4 patch.us.wizard101.com
+165.193.63.4 login.us.wizard101.com
+#165.193.63.4 versionec.us.wizard101.com
+72.21.81.253  versionec.us.wizard101.com
+117.18.232.252 versionec.us.wizard101.com
+93.184.221.133 versionec.us.wizard101.com
+108.160.166.137 versionec.us.wizard101.com
+103.214.168.106 versionec.us.wizard101.com
+103.39.76.66 versionec.us.wizard101.com
+
+205.185.216.10 trove-update.dyn.triongames.com #UHE_
