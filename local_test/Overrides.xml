@@ -1,0 +1,10 @@
+<Objects>
+   <Class Name="class LocaleManager">
+      <m_localeMappingList>
+         <Class Name="class LocaleMapping">
+            <m_wadFile>_Shared-WorldData</m_wadFile>
+            <m_fullReplacement>0</m_fullReplacement>
+         </Class>		 
+      <m_localeMappingList>		
+   </Class>
+</Objects>
