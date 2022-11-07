@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<defaultconfig>
+<GameSettings>
+<RECORD>
+<MainWebPage TYPE="STR">http://bbs.wo.2125.com</MainWebPage>
+<SupportWebPage TYPE="STR">http://service.61.com</SupportWebPage>
+<SubscribeWebPage TYPE="STR">http://pay.61.com/wovip/wovippay</SubscribeWebPage>
+<BuyCrownsWebPage TYPE="STR">http://pay.61.com/wocoin/processcard</BuyCrownsWebPage>
+<NonPayingWebPage TYPE="STR">http://wo.2125.com/ingame</NonPayingWebPage>
+<AccessPassWebPage TYPE="STR">http://114.80.173.92/accpass</AccessPassWebPage>
+</RECORD>
+</GameSettings>
+<VideoSettings>
+<RECORD>
+<IMEMode TYPE="INT">1</IMEMode>
+</RECORD>
+</VideoSettings>
+</defaultconfig>
+
