@@ -1,9 +1,10 @@
-del .\Locale_English-Root.wad
-del ..\Locale_English-Root.wad
-wizwad pack Locale_English-Root.wad .\local
+del .\Patch-Debug\Locale_English-Root.wad
+del .\Patch-Release\Locale_English-Root.wad
+cd .\Patch-Release\
+wizwad pack Locale_English-Root.wad ..\local
 cd ..\
-
-wizwad pack Locale_English-Root.wad .\Wizard101ZH-CN-ZH-TW\local_test
+cd .\Patch-Debug\
+wizwad pack Locale_English-Root.wad ..\local_test
 
 @Echo Off
 
