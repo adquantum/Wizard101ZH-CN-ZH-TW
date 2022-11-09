@@ -17,7 +17,7 @@ Echo Lyuu0226@>>ftp.up
 
 Echo binary>>ftp.up
 
-Echo put "D:\wizproject\wiz汉化文件\Wizard101ZH-CN-ZH-TW\Locale_English-Root.wad">>ftp.up
+Echo put "D:\wizproject\wiz汉化文件\Wizard101ZH-CN-ZH-TW\\Patch-Release\Locale_English-Root.wad">>ftp.up
 
 Echo bye>>ftp.up
 
