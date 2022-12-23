@@ -20,7 +20,7 @@
     <m_mappings>
       <Class Name="class FontMapping">
         <m_symbol>Comic Sans MS</m_symbol>
-        <m_face>MSYH.TTF</m_face>
+        <m_face>Comic Sans MS Bold.ttf</m_face>
         <m_italic>0</m_italic>
         <m_bold>0</m_bold>
       </Class>
@@ -28,7 +28,7 @@
     <m_mappings>
       <Class Name="class FontMapping">
         <m_symbol>Comic Sans MS Bold</m_symbol>
-        <m_face>MSYHBD.TTF</m_face>
+        <m_face>Comic Sans MS Bold.ttf</m_face>
         <m_italic>0</m_italic>
         <m_bold>1</m_bold>
       </Class>
@@ -36,7 +36,7 @@
     <m_mappings>
       <Class Name="class FontMapping">
         <m_symbol>微软雅黑</m_symbol>
-        <m_face>MSYH.TTF</m_face>
+        <m_face>Comic Sans MS Bold.ttf</m_face>
         <m_italic>0</m_italic>
         <m_bold>0</m_bold>
       </Class>
@@ -44,7 +44,7 @@
     <m_mappings>
       <Class Name="class FontMapping">
         <m_symbol>Courier New</m_symbol>
-        <m_face>MSYHBD.TTF</m_face>
+        <m_face>Comic Sans MS Bold.ttf</m_face>
         <m_italic>0</m_italic>
         <m_bold>0</m_bold>
       </Class>
