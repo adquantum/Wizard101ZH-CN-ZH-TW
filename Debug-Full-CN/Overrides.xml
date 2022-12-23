@@ -3,7 +3,7 @@
       <m_localeMappingList>
          <Class Name="class LocaleMapping">
             <m_wadFile>_Shared-WorldData</m_wadFile>
-            <m_fullReplacement>0</m_fullReplacement>
+            <m_fullReplacement>1</m_fullReplacement>
          </Class>		 
       <m_localeMappingList>		
    </Class>
