@@ -149,7 +149,7 @@ def translate(text):
     return  gClass.call_url()
     
 # 使用示例 需要提供输入文件的路径、输出文件的路径和你的有道智云 API key 作为参数。例如：
-input_file = 'D:/wizproject/wiz汉化文件/Wizard101ZH-CN-ZH-TW/Debug-Full-CN/Locale/English/WizardNPC.lang'
+input_file = 'D:/wizproject/wiz汉化文件/Wizard101ZH-CN-ZH-TW/Debug-Full-CN/Locale/English/Items.lang'
 
 
 # 打开文件
