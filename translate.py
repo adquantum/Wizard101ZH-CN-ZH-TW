@@ -149,7 +149,7 @@ def translate(text):
     return  gClass.call_url()
     
 # 使用示例 需要提供输入文件的路径、输出文件的路径和你的有道智云 API key 作为参数。例如：
-input_file = './Debug-Full-CN/Locale/English/CinematicDialogs.lang'
+input_file = './Debug-Full-CN/Locale/English/PetSnacks.lang'
 # 打开文件
 file = input_file
 f = open(file, 'r', encoding='utf-16-le')
