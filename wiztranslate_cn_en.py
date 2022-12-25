@@ -25,7 +25,7 @@ for lang in fl[1::]:
   for i in range(1,len(f),3):
     if f[i] in d:
       if i+2 <len(f):
-        if d[f[i]].find('·') != -1 or ' ' in f[i]:
+        if d[f[i]].find('·') != -1:
           t = f[i+1]
           f[i+1]= f[i+2]
           f[i+2]= d[f[i]]+"/n"+f[i+2]
