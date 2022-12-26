@@ -222,7 +222,7 @@ def translate_test(input_file):#测试
  #   change_api(line)#调用切换翻译引擎函数，如果换成translate_lang(line)则对未翻译的英文进行补全
   #  print(line)
 # 使用示例 需要提供输入文件的名字，作为参数。例如：
-lang="GUI2.lang"
+lang="Tooltips.lang"
 file_path='Debug-Full-CN/Locale/English/'
 input_file = file_path+lang
 translate_lang(input_file)
