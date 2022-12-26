@@ -202,12 +202,10 @@ def change_api(input_file):#更换翻译api，将第二行的文本翻译到第�
         for line in f:
             f1.write(line+'\n')    
 #需要处理的文件列表 按下面相对路径格式写入files
-files='''Debug-Full-CN/Locale/English/WizQst12D207.lang
-Debug-Full-CN/Locale/English/WizQst12D208.lang
-Debug-Full-CN/Locale/English/WizQst12D209.lang
-Debug-Full-CN/Locale/English/WizQst12D212.lang
-Debug-Full-CN/Locale/English/WizQst12D227.lang
-Debug-Full-CN/Locale/English/WizQst12D228.lang'''
+files='''Debug-Full-CN/Locale/English/WizQst12D301.lang
+Debug-Full-CN/Locale/English/WizQst12D318.lang
+Debug-Full-CN/Locale/English/WizQst12D319.lang
+Debug-Full-CN/Locale/English/WizQst12D322.lang'''
 file_list=files.splitlines()#按行分割文件名
 for line in file_list:#遍历这些文件，进行操作
     change_api(line)#调用切换翻译引擎函数，如果换成translate_flie(line)则对未翻译的英文进行补全
