@@ -3,13 +3,14 @@ def is_contains_chinese(strs):
         if '\u4e00' <= _char <= '\u9fa5':
             return True
     return False
-file_list="D:/Downloads/file.txt"
+file_list="./file.txt"
 fl=open(file_list,encoding='utf-16 le')
 fl = fl.read().splitlines()
 for lang in fl[1::]:
   file_name=lang
-  file_path="D:/wizproject/backup/Locale/English/"
-  file_path2="D:/wizproject/wiz汉化文件/Wizard101ZH-CN-ZH-TW/Debug-Full-CN/Locale/English/"
+
+  file_path="./Original-English/Locale/English/"
+  file_path2="./Debug-Full-CN/Locale/English/"
   file=file_path + file_name
   file2=file_path2 +file_name
   f=open(file,encoding='utf-16 le')
