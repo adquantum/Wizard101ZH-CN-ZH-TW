@@ -3,7 +3,7 @@ def is_contains_chinese(strs):
         if '\u4e00' <= _char <= '\u9fa5':
             return True
     return False
-file_list="D:/Downloads/file2.txt"
+file_list="D:/Downloads/file.txt"
 fl=open(file_list,encoding='utf-16 le')
 fl = fl.read().splitlines()
 for lang in fl[1::]:
@@ -25,14 +25,9 @@ for lang in fl[1::]:
   for i in range(1,len(f),3):
     if f[i] in d:
       if i+2 <len(f):
-        if d[f[i]].find('·') != -1:
-          t = f[i+1]
-          f[i+1]= f[i+2]
-          f[i+2]= d[f[i]]+"/n"+f[i+2]
-        else:
-          t = f[i+1]
-          f[i+1]= f[i+2]
-          f[i+2]= d[f[i]]
+        t = f[i+1]
+        f[i+1]= f[i+2]
+        f[i+2]= d[f[i]]
       if f[i+1]==f[i+2]:
         f[i+1]=t
   with open(file2,'w',encoding='utf-16 le') as f1:
