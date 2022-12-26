@@ -148,10 +148,7 @@ def translate(text):
     gClass=get_result(host)
     return  gClass.call_url()
     
-# 使用示例 需要提供输入文件的名字，作为参数。例如：
-lang="WizQst17321F.lang"
-file_path='/Debug-Full-CN/Locale/English/'
-input_file = file_path+lang
+
 # 打开文件
 def translate_lang(input_file):#翻译文件中的英文部分
     file = input_file
@@ -164,7 +161,7 @@ def translate_lang(input_file):#翻译文件中的英文部分
         if i !=0:
             if (i+1) % 3 == 1:
             # 判断行中是否包含中文
-                if not re.search(r'[\u4e00-\u9fff]', line):
+                if not re.search(r'[\u0024,\u0025,\u4e00-\u9fff]', line):
                     # 判断是否是空行
                     if line.strip() != "":
                     # 使用有道智云 API 翻译
@@ -188,7 +185,7 @@ def change_api(input_file):#更换翻译api，将第二行的文本翻译到第�
         if i !=0:
             if (i+1) % 3 == 0:
             # 判断行中是否包含中文
-                if not re.search(r'[\u4e00-\u9fff]', line):
+                if not re.search(r'[\u0024,\u0025,\u4e00-\u9fff]', line):
                     # 判断是否是空行
                     if line.strip() != "":
                     # 使用有道智云 API 翻译
@@ -201,12 +198,32 @@ def change_api(input_file):#更换翻译api，将第二行的文本翻译到第�
     with open(file,'w',encoding='utf-16 le') as f1:
         for line in f:
             f1.write(line+'\n')    
+def translate_test(input_file):#测试
+    file = input_file
+    f = open(file, 'r', encoding='utf-16-le')
+    f = f.read().splitlines()
+
+    # 遍历每一行
+    for i, line in enumerate(f):
+    # 判断是否是第 3n+1 行
+        if i !=0:
+            if (i+1) % 3 == 1:
+            # 判断行中是否包含中文
+                if not re.search(r'[\u0024,\u4e00-\u9fff]', line):
+                # 判断是否是空行
+                    if line.strip()!= "":
+                    # 进行翻译
+                        print(line)
+
 #需要处理的文件列表 按下面相对路径格式写入files
-files='''Debug-Full-CN/Locale/English/WizQst12D301.lang
-Debug-Full-CN/Locale/English/WizQst12D318.lang
-Debug-Full-CN/Locale/English/WizQst12D319.lang
-Debug-Full-CN/Locale/English/WizQst12D322.lang'''
-file_list=files.splitlines()#按行分割文件名
-for line in file_list:#遍历这些文件，进行操作
-    change_api(line)#调用切换翻译引擎函数，如果换成translate_flie(line)则对未翻译的英文进行补全
-    print(line)
+#files='''
+# '''
+#file_list=files.splitlines()#按行分割文件名
+#for line in file_list:#遍历这些文件，进行操作
+ #   change_api(line)#调用切换翻译引擎函数，如果换成translate_lang(line)则对未翻译的英文进行补全
+  #  print(line)
+# 使用示例 需要提供输入文件的名字，作为参数。例如：
+lang="CombatMessages.lang"
+file_path='Debug-Full-CN/Locale/English/'
+input_file = file_path+lang
+translate_test(input_file)
