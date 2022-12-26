@@ -148,12 +148,12 @@ def translate(text):
     gClass=get_result(host)
     return  gClass.call_url()
     
-# 使用示例 需要提供输入文件的路径、输出文件的路径和你的有道智云 API key 作为参数。例如：
+# 使用示例 需要提供输入文件的名字，作为参数。例如：
 lang="WizQst17321F.lang"
 file_path='/Debug-Full-CN/Locale/English/'
 input_file = file_path+lang
 # 打开文件
-def translate_lang(input_file):
+def translate_lang(input_file):#翻译文件中的英文部分
     file = input_file
     f = open(file, 'r', encoding='utf-16-le')
     f = f.read().splitlines()
@@ -177,7 +177,7 @@ def translate_lang(input_file):
     with open(file,'w',encoding='utf-16 le') as f1:
         for line in f:
             f1.write(line+'\n')
-def change_api(input_file):
+def change_api(input_file):#更换翻译api，将第二行的文本翻译到第三行
     file = input_file
     f = open(file, 'r', encoding='utf-16-le')
     f = f.read().splitlines()
@@ -201,11 +201,14 @@ def change_api(input_file):
     with open(file,'w',encoding='utf-16 le') as f1:
         for line in f:
             f1.write(line+'\n')    
-files='''Debug-Full-CN/Locale/English/WizQst12D201.lang
-Debug-Full-CN/Locale/English/WizQst12D202.lang
-Debug-Full-CN/Locale/English/WizQst12D203.lang'''
-
-file_list=files.splitlines()
-for line in file_list:
-    change_api(line)
+#需要处理的文件列表 按下面相对路径格式写入files
+files='''Debug-Full-CN/Locale/English/WizQst12D207.lang
+Debug-Full-CN/Locale/English/WizQst12D208.lang
+Debug-Full-CN/Locale/English/WizQst12D209.lang
+Debug-Full-CN/Locale/English/WizQst12D212.lang
+Debug-Full-CN/Locale/English/WizQst12D227.lang
+Debug-Full-CN/Locale/English/WizQst12D228.lang'''
+file_list=files.splitlines()#按行分割文件名
+for line in file_list:#遍历这些文件，进行操作
+    change_api(line)#调用切换翻译引擎函数，如果换成translate_flie(line)则对未翻译的英文进行补全
     print(line)
