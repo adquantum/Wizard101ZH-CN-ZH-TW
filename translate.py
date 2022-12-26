@@ -201,14 +201,9 @@ def change_api(input_file):
     with open(file,'w',encoding='utf-16 le') as f1:
         for line in f:
             f1.write(line+'\n')    
-files='''Debug-Full-CN/Locale/English/WizQst17326F.lang
-Debug-Full-CN/Locale/English/WizQst17327B.lang
-Debug-Full-CN/Locale/English/WizQst17327C.lang
-Debug-Full-CN/Locale/English/WizQst17327D.lang
-Debug-Full-CN/Locale/English/WizQst17327E.lang
-Debug-Full-CN/Locale/English/WizQst17327F.lang
-Debug-Full-CN/Locale/English/WizQst17328A.lang
-Debug-Full-CN/Locale/English/WizQst17329F.lang'''
+files='''Debug-Full-CN/Locale/English/WizQst12D201.lang
+Debug-Full-CN/Locale/English/WizQst12D202.lang
+Debug-Full-CN/Locale/English/WizQst12D203.lang'''
 
 file_list=files.splitlines()
 for line in file_list:
