@@ -149,31 +149,68 @@ def translate(text):
     return  gClass.call_url()
     
 # 使用示例 需要提供输入文件的路径、输出文件的路径和你的有道智云 API key 作为参数。例如：
-input_file = './Debug-Full-CN/Locale/English/PetSnacks.lang'
+lang="WizQst17321F.lang"
+file_path='/Debug-Full-CN/Locale/English/'
+input_file = file_path+lang
 # 打开文件
-file = input_file
-f = open(file, 'r', encoding='utf-16-le')
-f = f.read().splitlines()
+def translate_lang(input_file):
+    file = input_file
+    f = open(file, 'r', encoding='utf-16-le')
+    f = f.read().splitlines()
 
-# 遍历每一行
-for i, line in enumerate(f):
-  # 判断是否是第 3n+1 行
-  if i !=0:
-    if (i+1) % 3 == 1:
-      # 判断行中是否包含中文
-      if not re.search(r'[\u4e00-\u9fff]', line):
-        # 判断是否是空行
-        if line.strip() != "":
-          # 使用有道智云 API 翻译
-          print(line)
-          translated_line = translate(line)
-          # 将翻译后的文本写入输出文件
-          f[i] = translated_line
-
-
-with open(file,'w',encoding='utf-16 le') as f1:
-    for line in f:
-        f1.write(line+'\n')
+    # 遍历每一行
+    for i, line in enumerate(f):
+    # 判断是否是第 3n+1 行
+        if i !=0:
+            if (i+1) % 3 == 1:
+            # 判断行中是否包含中文
+                if not re.search(r'[\u4e00-\u9fff]', line):
+                    # 判断是否是空行
+                    if line.strip() != "":
+                    # 使用有道智云 API 翻译
+                        print(line)
+                        translated_line = translate(line)
+                        # 将翻译后的文本写入输出文件
+                        f[i] = translated_line
 
 
+    with open(file,'w',encoding='utf-16 le') as f1:
+        for line in f:
+            f1.write(line+'\n')
+def change_api(input_file):
+    file = input_file
+    f = open(file, 'r', encoding='utf-16-le')
+    f = f.read().splitlines()
 
+    # 遍历每一行
+    for i, line in enumerate(f):
+    # 判断是否是第 3n行
+        if i !=0:
+            if (i+1) % 3 == 0:
+            # 判断行中是否包含中文
+                if not re.search(r'[\u4e00-\u9fff]', line):
+                    # 判断是否是空行
+                    if line.strip() != "":
+                    # 使用有道智云 API 翻译
+                        print(line)
+                        translated_line = translate(line)
+                        # 将翻译后的文本写入输出文件
+                        f[i+1] = translated_line
+
+
+    with open(file,'w',encoding='utf-16 le') as f1:
+        for line in f:
+            f1.write(line+'\n')    
+files='''Debug-Full-CN/Locale/English/WizQst17326F.lang
+Debug-Full-CN/Locale/English/WizQst17327B.lang
+Debug-Full-CN/Locale/English/WizQst17327C.lang
+Debug-Full-CN/Locale/English/WizQst17327D.lang
+Debug-Full-CN/Locale/English/WizQst17327E.lang
+Debug-Full-CN/Locale/English/WizQst17327F.lang
+Debug-Full-CN/Locale/English/WizQst17328A.lang
+Debug-Full-CN/Locale/English/WizQst17329F.lang'''
+
+file_list=files.splitlines()
+for line in file_list:
+    change_api(line)
+    print(line)
