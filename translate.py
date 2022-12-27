@@ -22,6 +22,20 @@ import hashlib
 import base64
 import hmac
 import json
+import os
+import openai
+
+openai.api_key = os.getenv("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")
+
+response = openai.Completion.create(
+  model="text-davinci-003",
+  prompt="Translate this into 1. French, 2. Spanish and 3. Japanese:\n\nWhat rooms do you have available?\n\n1.",
+  temperature=0.3,
+  max_tokens=100,
+  top_p=1.0,
+  frequency_penalty=0.0,
+  presence_penalty=0.0
+)
 def translate(text):
     class get_result(object):
         def __init__(self,host):
