@@ -1,9 +1,10 @@
+rem 删除旧版本的全汉化和半汉化
 del .\Patch-Debug\Locale_English-Root.wad
 del .\Patch-Release\Locale_English-Root.wad
 @echo off
 rem 读取半汉化需要的文件列表
 setlocal enabledelayedexpansion
-set file_list=release_file_quick.txt
+set file_list=release_file.txt
 for /f "tokens=*" %%f in (%file_list%) do (
 set file=%%f
 rem 执行覆盖操作
@@ -17,5 +18,5 @@ cd ..\
 cd .\Patch-Debug\ 
 rem 打包全汉化
 wizwad pack Locale_English-Root.wad ..\Debug-Full-CN
-rem 复制打包好的全汉化到我的steam wiz游戏目录直接测试 此行可修改
+
 copy .\Locale_English-Root.wad "D:\steam\steamapps\common\Wizard101\Data\GameData\"
