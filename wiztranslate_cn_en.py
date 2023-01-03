@@ -56,8 +56,9 @@ for lang in fl[1::]:
           f[i+2]= d[f[i]]
         if f[i+1]==f[i+2]:
           f[i+1]=t
-    with open(file2,'w',encoding='utf-16 le') as f1:
-      for line in f:
-        f1.write(line+'\n')
+    with open(file2, 'w', encoding='utf-16 le', newline='\r\n') as f1:
+        for line in f:
+            f1.write(line+'\n')
+
     print(file_name)
 
