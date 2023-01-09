@@ -7,6 +7,14 @@ def is_contains_chinese(strs):
             return True
     # 如果字符串中没有中文字符，则返回 False
     return False
+def fix_italics(line):
+  if "<ITALICS>" in line and "</ITALICS>" not in line:
+      fixed_line = line + "</ITALICS>"
+  elif "</ITALICS>" in line and "<ITALICS>" not in line:
+      fixed_line = "<ITALICS>" + line            
+  else:
+      fixed_line = line
+  return fixed_line
 
 # 读取文件列表
 file_list = "./file.txt"
@@ -34,7 +42,7 @@ for lang in fl[1::]:
 
     # 获取文件中的键和值
     key = f2[1::3]
-    value = f2[::3][1::]
+    value = fix_italics(f2[::3][1::])
 
     # 将键值对组成字典
     d = dict(zip(key, value))
