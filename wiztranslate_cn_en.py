@@ -43,6 +43,8 @@ for lang in fl[1::]:
     # 获取文件中的键和值
     key = f2[1::3]
     value = fix_italics(f2[::3][1::])
+    for i, line in enumerate(value):
+        value[i] = fix_italics(line)
 
     # 将键值对组成字典
     d = dict(zip(key, value))
