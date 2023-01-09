@@ -1,6 +1,7 @@
 import os
 import textwrap
-
+import subprocess
+subprocess.run(["bash", "packup.sh"])
 def get_multi_line_input():
     lines = []
     print("请输入版本更新的内容，输入完成后按两次回车结束输入:")
